@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.box1 {
+    width:200px;
+    height: 200px;
+    background-color: #D8A7A8;
+    -webkit-transition: all 1000ms ease-in-out 500ms;
+    -o-transition: all 1000ms ease-in-out 500ms;
+    transition: all 1000ms ease-in-out 500ms;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #82C1B9;
+    -webkit-transition: all 1000ms ease 0s;
+    -o-transition: all 1000ms ease 0s;
+    transition: all 1000ms ease 0s;
+}
+.box1:hover {
+    background-color: #A491B4;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.box2:hover {
+    background-color: #C57B4F;
+    transform: translate(50px, 50px);
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #BDC449;
+    -webkit-transition: all 1000ms ease 0s;
+    -o-transition: all 1000ms ease 0s;
+    transition: all 1000ms ease 0s;
+}
+.box3:hover {
+    width: 200px;
+    height: 200px;
+    background-color: #E19AC9;
+    transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+</style>
+</head>
+
+<body class="container">
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+</body>
+</html>
